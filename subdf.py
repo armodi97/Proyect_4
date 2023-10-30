@@ -9,6 +9,3 @@ brand = vehicles_df["model"].str.split(" ").str[0].unique()
 transmission = vehicles_df["transmission"].unique()
 condition = vehicles_df["condition"].unique()
 type = vehicles_df["type"].unique()
-Price = 0
-Odometer = 0
-print()
