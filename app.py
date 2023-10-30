@@ -5,6 +5,10 @@ import numpy as np
 import subdf
 
 
+st.header("Análisis estadístico de un conjunto de autos en venta")
+
+
+# Crea los valores de multiselect para filtrar
 def checkboxes_gen(list):
     selection = st.sidebar.multiselect("Selecciona:", list)
     return selection
